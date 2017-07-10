@@ -19,5 +19,11 @@
 |double|8|15 знака след .|
 
 #HSLIDE
-#slide2
-content2
+####Декларация & Инициализация
+'''c
+char name2[10]={'S','v','e','t','l','o','z','a','r'};
+char name[10]="Svetlozar";
+char lastName[]="Kosev";
+char str1[10];
+char str3 []="123";
+'''
