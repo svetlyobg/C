@@ -67,6 +67,7 @@ char directory[] = "D:\\Programs\\Ebook Reader\\translations";
 ##ASCII таблицата със символите
 |<font color="white">Dec</font>|<font color="white">Chr</font>|<font color="white">Dec</font>|<font color="white">Chr</font>|
 |<font color="white">64</font>|<font color="white">@</font>|<font color="white">96</font>|<font color="white">`</font>|
+|---|---|---|---|
 |64|A|97|a|
 |66|B|98|b|
 |67|C|99|c|
