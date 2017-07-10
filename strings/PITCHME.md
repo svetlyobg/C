@@ -51,3 +51,15 @@ name 2 = {'I','v','a','n'};
 ```
 
 <u><font color="red">Недопустимо е инициализирането да бъде направено нa хода на програмата след декларацията!</font></u>
+#HSLIDE
+```c++
+char emptyString [] = "";
+char spaceString [] = " ";
+char helloWorld[] = "Hello World";
+char svetlozar[] = "Светлозар";
+char num [] = "1436";
+char shlokavica [] = "sjdfnsdjfn23123_ 1 2 5 .-( ";
+char someSymbols[] = "¥►▫♥█☻ﺶ";" )"
+char specialSymbols[] = "Това е наклонена черта \\";"
+char directory[] = "D:\\Programs\\Ebook Reader\\translations";
+```
