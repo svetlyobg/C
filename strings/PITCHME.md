@@ -44,7 +44,7 @@ char str3 []="123";
 char name[5];
 name = "Ivan";
 ```
-__или__
+<p align="left">__или__</p>
 ```
 char name2[5];
 name 2 = {'I','v','a','n'};
