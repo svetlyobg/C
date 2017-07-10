@@ -1,6 +1,5 @@
 #Символни низове
-content
-
+#HSLIDE
 ##subtitle
 subcontent
 #HSLIDE
