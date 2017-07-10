@@ -64,11 +64,11 @@ char specialSymbols[] = "Това е наклонена черта \\";
 char directory[] = "D:\\Programs\\Ebook Reader\\translations";
 ```
 #HSLIDE
-##ASCII таблицата със символите
+###ASCII таблицата със символите
 |<font color="white">Dec</font>|<font color="white">Chr</font>|<font color="white">Dec</font>|<font color="white">Chr</font>|
 |---|---|---|---|
-|<font color="white">64</font>|<font color="white">@</font>|<font color="white">96</font>|<font color="white">`</font>|
-|64|A|97|a|
+|64|@|96|`|
+|<font color="white">64</font>|<font color="white">A</font>|<font color="white">97</font>|<font color="white">a</font>|
 |66|B|98|b|
 |67|C|99|c|
 |68|D|100|d|
