@@ -65,6 +65,7 @@ char directory[] = "D:\\Programs\\Ebook Reader\\translations";
 ```
 #HSLIDE
 ##ASCII таблицата със символите
+|---|---|---|---|
 |<font color="white">Dec</font>|<font color="white">Chr</font>|<font color="white">Dec</font>|<font color="white">Chr</font>|
 |<font color="white">64</font>|<font color="white">@</font>|<font color="white">96</font>|<font color="white">`</font>|
 |---|---|---|---|
