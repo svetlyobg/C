@@ -20,10 +20,10 @@
 
 #HSLIDE
 ####Декларация & Инициализация
-'''c
+```c
 char name2[10]={'S','v','e','t','l','o','z','a','r'};
 char name[10]="Svetlozar";
 char lastName[]="Kosev";
 char str1[10];
 char str3 []="123";
-'''
+```
