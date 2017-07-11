@@ -76,9 +76,39 @@ char directory[] = "D:\\Programs\\Ebook Reader\\translations";
 
 #HSLIDE
 ##Въвеждане на низ от клавиатурата
+
 ```c++
 char name[20];
 cin >> name;
 ```
-<font color="red">Предвидете място за символа, указвайщ край на низ __\0__</font>
 
+<font color="red">Предвидете място за символа, указвайщ край на низ __\0__</font>
+#HSLIDE
+##Извеждане на низ на конзолата
+
+```c++
+char printBackSlash[2] = "\\";
+count << printBackSlash << endl;
+```
+#HSLIDE
+##Достъп до отделен елемент на низ
+
+```c++
+char name [] = "Svetlozar Kosev", s;
+
+count << name[0] << endl;
+count << name[1] << endl;
+count << name[2] << endl;
+count << name[7] << endl;
+count << name[14] << endl;
+
+s = name[7];
+count << "s = name[7] -> " << s << endl;
+```
+#HSLIDE
+##Допустими операции
+
+* Може да се извъриват опирации над отделни символи.  
+* Тези операции трябва да са допустими за тип char  
+
+<font color="red">Директни операции над цели низове не са допустими!</font>
