@@ -75,7 +75,7 @@ char directory[] = "D:\\Programs\\Ebook Reader\\translations";
 |69|E|101|e|
 
 #HSLIDE
-#Въвеждане на низ от клавиатурата
+##Въвеждане на низ от клавиатурата
 ```c++
 char name[20];
 cin >> name;
