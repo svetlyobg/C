@@ -73,3 +73,12 @@ char directory[] = "D:\\Programs\\Ebook Reader\\translations";
 |67|C|99|c|
 |68|D|100|d|
 |69|E|101|e|
+
+#HSLIDE
+#Въвеждане на низ от клавиатурата
+```c++
+char name[20];
+cin >> name;
+```
+<font color="red">Предвидете място за символа, указвайщ край на низ __\0__</font>
+
