@@ -49,8 +49,8 @@ name = "Ivan";
 char name2[5];
 name 2 = {'I','v','a','n'};
 ```
-
-<u><font color="red">Недопустимо е инициализирането да бъде направено нa хода на програмата след декларацията!</font></u>
+<br \>
+<font color="red">Недопустимо е инициализирането да бъде направено нa хода на програмата след декларацията!</font>
 #HSLIDE
 ```c++
 char emptyString [] = "";
@@ -126,4 +126,41 @@ count << "s = name[7] -> " << s << endl;
 ```
 #HSLIDE
 ##Намиране дължина на низ
+```c++
+strlen(имеНаНиз);
 
+char a [] = "hello";
+count << "Низът съдържа " << strlen(a) << " брой елементи" << endl;
+```
+
+Връща цяло число . дължината на низа.
+#HSLIDE
+##Въвеждане на низ
+```c++
+cin.getline(имеНаНиз,бройСимволи);
+char str[5];
+cin.getline(str, 5);
+cout << str;
+```
+```c++
+cin.getline(имеНаНиз, бройСимволи,'символ');
+char niz[10];
+cin.getline(niz, 10, '@');
+cout << niz;
+```
+#HSLIDE
+##Копиране на един низ в друг
+```c++
+strcpy(имеНаНиз1,имеНаНиз2);
+char a[15],b[] = "INFORMATIKA";
+strcpy(a, b);
+cout << a <<"\n" <<b << endl;
+```
+<u>Копира низ 2 н виз 1</u>
+```c++
+strncpy(имеНаНиз1,имеНаНиз2,n);
+char a[15],b[] = "INFORMATIKA";
+strncpy(a, b, 4);
+cout << a << endl;
+```
+<u>Копира първите **n** символа</u>
